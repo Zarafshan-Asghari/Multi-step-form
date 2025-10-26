@@ -1,6 +1,6 @@
 import { createContext, useState } from "react";
 import "./App.css";
-import Sidebar from "./components/sideBar/Sidebar";
+import Sidebar from "./components/sidebar/Sidebar";
 import PrimaryData from "./components/primaryData/PrimaryData";
 import SelectPlan from "./components/selectPlan/SelectPlan";
 import PickAddOns from "./components/pickAddOns/PickAddOns";
