@@ -1,7 +1,7 @@
 export default function Sidebar({steps ,formStep}){
     return(
               <div
-          className={`flex md:flex-col md:justify-start md:items-start items-center justify-center gap-4 md:bg-[url('../public/images/bg-Sidebar-desktop.svg')] w-full bg-cover bg-center  h-full rounded-2xl px-6 py-8 md:w-1/3  bg-[url('../public/images/bg-Sidebar-mobile.svg')]`}
+          className={`flex md:flex-col md:justify-start md:items-start items-center justify-center gap-4 md:bg-[url('../public/images/bg-Sidebar-desktop.svg')] w-full bg-cover bg-center  h-full rounded-2xl px-6 py-8 md:w-1/3  bg-[url('../public/images/bg-Sidebar-mobile.svg')] bg-blue-900`}
         >
           {steps.map((s, index) => (
             <span key={index} className={`flex items-start gap-3  `}>
